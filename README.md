@@ -3,11 +3,12 @@
 ## Version 1.1 - Major Update
 
 The new version **1.1** is out! This is a **major update** with several improvements and bug fixes. Please make sure to follow the installation instructions carefully to ensure the tool works properly.
-Port Scanning Does Not Work Sorry:(
+
 ---
 
 ## Requirements
-
+Port Scanning
+Port scanning does not work in this version. This functionality is temporarily unavailable, and we are working on improving it for future releases.
 This application requires **Python** to work.
 
 ### 1. Install **Microsoft Visual C++ Build Tools**
