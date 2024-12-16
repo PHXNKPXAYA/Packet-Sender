@@ -1,3 +1,4 @@
+
 # Packet Sender & Port Scanner (v1.3)
 
 Packet Sender & Port Scanner is a comprehensive network tool designed for packet sending, port scanning, and network performance analysis.
@@ -24,7 +25,7 @@ pip install PyQt5 requests
 ```
 
 ### Step 2: Download and Run the Installer
-- Download the installer from the [Releases page](https://github.com/PHXNKPXAYA/PacketSender/releases).
+- Download the installer from the [Releases page](https://github.com/PHXNKPXAYA/Packet-Sender/releases).
 - Run the installer and follow the on-screen instructions to set up the application.
 
 ### Step 3: Launch the Application
@@ -79,5 +80,13 @@ The creator is **not responsible** for any misuse or consequences of using this 
 ## 📨 Support & Contributions
 - **Report Issues**: If you encounter any problems, submit them via the [Issues](https://github.com/PHXNKPXAYA/Packet-Sender/issues) section.
 - **Contribute**: Contributions to improve or expand this project are always welcome! Fork the repository and submit a pull request.
+
+---
+
+## 💙 Support My Work
+
+If you enjoy my projects, such as **Packet Sender** or other tools, consider supporting me on **[Buy Me a Coffee](https://buymeacoffee.com/phxnkpxaya)**! ☕️ Your contributions help fund future development, enhancements, and more exciting projects. Every little bit helps and is greatly appreciated. 🙏
+
+Thank you for your support! 💙
 
 ---
