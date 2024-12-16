@@ -1,62 +1,83 @@
-# Packet Sender & Port Scanner App - **Version 1.2**
+# Packet Sender & Port Scanner (v1.2)
 
-This is the **Packet Sender & Port Scanner App**, a tool designed to send custom UDP packets and scan ports on a target IP address. This new version (1.2) introduces major improvements, including the ability to scan ports, customize packet size, and more!
-
----
-
-## Features of Packet Sender & Port Scanner App
-
-### 1. **Packet Sending**
-- Send custom-sized **UDP packets** to a target IP address and port.
-- Specify the **message** to include in the packet.
-- Control the **number of threads** for faster packet sending.
-- **Packet Size Customization**: Choose the packet size, from small packets to large ones (up to **1MB**).
-
-### 2. **Speedometer**
-- Real-time visualization of the packet sending **speed** (packets per second).
-- **Dynamic needle color** changes based on speed:
-  - Green for low speed (up to 5000 packets/sec).
-  - Orange for medium speed (5000 to 8000 packets/sec).
-  - Red for high speed (above 8000 packets/sec).
-- Displays **packets sent per second** with real-time updates.
-
-### 3. **Real-Time Statistics**
-- **Total packets sent** and **failed packets** are displayed in real-time.
-- Statistics update every second to reflect the **current packet sending status**.
-
-### 4. **Port Scanning**
-- **Scan a range of ports** on a target IP address.
-- Displays **open ports** within the scanned range.
-- Provides **real-time feedback** during the port scan process.
-
-### 5. **Multithreaded Packet Sending**
-- Supports **multiple threads** for concurrent packet sending.
-- Increases the speed and **effectiveness** of the packet sending process.
-
-### 6. **Graphical User Interface (GUI)**
-- **User-friendly interface** built with **PyQt5**.
-- Real-time updates for the **speedometer** and **statistics**.
-- Easily navigable UI for **sending packets**, **scanning ports**, and monitoring results.
-
-### 7. **Error Handling**
-- Tracks **failed packets** and displays relevant **error messages**.
-- Handles **invalid inputs** for packet size and port scanning.
-
-### 8. **Real-Time Feedback**
-- Displays **real-time status** of the packet sender (sending packets, stopped, etc.).
-- Provides **visual feedback** on packet sending rates and success/failure statistics.
-
-### 9. **Cross-Platform**
-- Built with **Python** and **PyQt5**, making it compatible with multiple operating systems:
-  - **Windows**
-  - **macOS**
-  - **Linux**
+Packet Sender & Port Scanner is a comprehensive network tool designed for packet sending, port scanning, and network performance analysis.
 
 ---
 
-## Requirements
+## 📢 What's New in v1.2:
+- **Added Installer**: A new, user-friendly installer is available! Simply run it to install the app—no manual file handling required.
+- **Port Scanning Returns**: Enhanced functionality for scanning open ports within a specified range.
+- **Major UI Update**: Improved user interface for a better experience.
+- **Improved Speedometer**: Real-time updates with dynamic color coding for speed visualization.
+- **Custom Packet Size**: Control the exact size of packets sent, up to 1MB.
+- **Multithreaded Operations**: Optimized for high-performance packet sending with multiple threads.
+- **Error Handling**: Displays clear error messages for invalid inputs or connection issues.
 
-To run **Packet Sender & Port Scanner** app, you need to have **Python 3.x** installed. You can install the required dependencies by running the following command:
+---
+
+## 🚀 Getting Started
+### Step 1: Install Required Python Packages
+Ensure Python is installed on your system, and then run the following command in your terminal to install the necessary libraries:
 
 ```bash
 pip install PyQt5 requests
+```
+
+### Step 2: Download and Run the Installer
+- Download the installer from the [Releases page](https://github.com/PHXNKPXAYA/PacketSender/releases).
+- Run the installer and follow the on-screen instructions to set up the application.
+
+### Step 3: Launch the Application
+After installation, start the app via the desktop shortcut or from the Start Menu.
+
+---
+
+## Features of Packet Sender v1.2:
+### Packet Sending:
+- Send custom-sized UDP packets to a target IP address and port.
+- Specify the message to include in the packet.
+- Multithreaded for faster packet sending.
+
+### Speedometer:
+- Visualize the packet sending speed in real time.
+- Dynamic needle color change based on speed:
+  - Green: Low speed (up to 5000 packets/sec).
+  - Orange: Medium speed (5000 to 8000 packets/sec).
+  - Red: High speed (above 8000 packets/sec).
+- Display packets sent per second with live updates.
+
+### Port Scanning:
+- Scan a range of ports on a target IP.
+- Display open ports during the scanning process.
+
+### Real-Time Statistics:
+- Monitor total packets sent and failed packets in real time.
+- Updated every second for accurate status.
+
+### Graphical User Interface (GUI):
+- Built with PyQt5 for a clean, user-friendly design.
+- Easily navigate between packet sending, port scanning, and results monitoring.
+
+### Error Handling:
+- Displays error messages for invalid inputs or network issues.
+- Tracks failed packets for troubleshooting.
+
+---
+
+## 🖍️ Note on Port Scanning
+### Port scanning functionality has been improved in this version.  
+It may still be affected by system firewalls or permissions. Adjust network and security settings if you encounter issues.
+
+---
+
+## ⚠️ Disclaimer
+This tool is intended for **educational and cybersecurity purposes only**.  
+The creator is **not responsible** for any misuse or consequences of using this software.
+
+---
+
+## 📨 Support & Contributions
+- **Report Issues**: If you encounter any problems, submit them via the [Issues](https://github.com/PHXNKPXAYA/PacketSender/issues) section.
+- **Contribute**: Contributions to improve or expand this project are always welcome! Fork the repository and submit a pull request.
+
+---
