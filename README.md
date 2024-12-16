@@ -1,10 +1,10 @@
-# Packet Sender & Port Scanner (v1.2)
+# Packet Sender & Port Scanner (v1.3)
 
 Packet Sender & Port Scanner is a comprehensive network tool designed for packet sending, port scanning, and network performance analysis.
 
 ---
 
-## 📢 What's New in v1.2:
+## 📢 What's New in v1.3:
 - **Added Installer**: A new, user-friendly installer is available! Simply run it to install the app—no manual file handling required.
 - **Port Scanning Returns**: Enhanced functionality for scanning open ports within a specified range.
 - **Major UI Update**: Improved user interface for a better experience.
