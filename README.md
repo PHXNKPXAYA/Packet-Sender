@@ -77,7 +77,7 @@ The creator is **not responsible** for any misuse or consequences of using this 
 ---
 
 ## 📨 Support & Contributions
-- **Report Issues**: If you encounter any problems, submit them via the [Issues](https://github.com/PHXNKPXAYA/PacketSender/issues) section.
+- **Report Issues**: If you encounter any problems, submit them via the [Issues](https://github.com/PHXNKPXAYA/Packet-Sender/issues) section.
 - **Contribute**: Contributions to improve or expand this project are always welcome! Fork the repository and submit a pull request.
 
 ---
